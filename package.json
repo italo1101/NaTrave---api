@@ -4,8 +4,6 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
     "start": " node -r dotenv-safe/config api/index.js",
     "postinstall": "prisma generate"
   },
